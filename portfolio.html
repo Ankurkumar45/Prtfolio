@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="portfolio, Ankur's portfolio, web development">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" href="port_style.css">
+</head>
+<body>
+    <header>
+        <div class="header_div">
+            <nav class="head_nav">
+                <img src="logo.png" alt="loading" id="my_name">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <div class="body_div" id="body_div1">
+        <h1 id="name_h1">I'am <span id="myself">Ankur Kumar Dwivedi</span></h1>
+        <p>This is my official portfolio website to show all <br>Details and work experience in Web Development</p>
+    </div>
+
+    <div class="body_div" id="body_div2">
+        <img src="my-image.jpg" alt="loading" id="image">
+    </div>
+
+    <style>
+        @media screen and (max-width:360px) {
+
+            #my_name{
+                width: 15%;
+                height: 15%;
+                margin-right: 20%;
+            }
+            li,a{
+                font-size: 10px;
+            }
+            #myself{
+                font-size: 15px;
+            }
+            #name_h1{
+                font-size: 15px;
+                position: absolute;
+                top: 15%;
+            }
+            p{
+                position: absolute;
+                top: 19%;
+                font-size: 10px;
+            }
+            .body_div{
+                margin-left: 0%;
+            }
+        }
+    </style>
+</body>
+</html>

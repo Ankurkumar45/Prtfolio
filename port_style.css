@@ -1,0 +1,66 @@
+body{
+    background-image: url('3492868.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head_nav{
+    display: flex;
+}
+.head_nav,li{
+    list-style-type: none;
+    margin-right: 5%;
+}
+li,a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+a:hover{
+    color: red;
+    font-size: 15px;
+}
+#my_name{
+    width: 10%;
+    height: 10%;
+    margin-right: 50%;
+    border-radius: 50%;
+}
+.body_div{
+    margin-left: 5%;
+    width: 40%;
+    display: inline-block;
+}
+#body_div1{
+    height: 20px;
+    border-left: none;
+}
+#body_div2{
+    border-radius: 10%;
+    width: 30%;
+    margin-left: 70%;
+}
+#myself{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#name_h1{
+    color: aqua;
+    position: absolute;
+    top: 50%;
+}
+p{
+    position: absolute;
+    top: 60%;
+    color: antiquewhite;
+}
+#image{
+    width: 50%;
+    height: 5%;
+    border-radius: 10%;
+    margin-left: 0%;
+    filter: grayscale(100%);
+}
+#image:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
